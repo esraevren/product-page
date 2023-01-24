@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mulish {
+  font-family: Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Noto Color Emoji;
+}
+
+.kanit {
+  font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.newsreader {
+  font-family: "Newsreader", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1.3rem 3rem;
+  justify-content: space-between;
+  background-color: #fff;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  font-weight: 700;
+  padding-bottom: 0.3rem;
+  margin-left: 5rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.logo:hover {
+  color: #2937f0;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style-type: none;
+  text-align: right;
+  padding: 0.5rem;
+  margin-right: 5rem;
+}
+
+.menu > li {
+  display: inline-block;
+  margin-inline: 0.5rem;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  font-weight: lighter;
+  color: #212529;
+  margin-right: 20px;
+}
+
+.menu > li > a:hover {
+  color: #5d6975;
+}
+
+.nav-item {
+  background-color: #2937f0;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: #fff !important;
+  font-size: 0.9rem;
+}
+li.mobile-nav {
+  display: none;
+}
+.bi-chat-text-fill {
+  margin-right: 6px;
+}
+
+.header {
+  margin-top: 5.5rem;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  margin-left: 2.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.right {
+  width: 50%;
+  padding: 9rem;
+  margin-left: -5rem;
+  position: relative;
+}
+
+.gradient-start-color {
+  stop-color: #2937f0;
+}
+
+.gradient-end-color {
+  stop-color: #9f1ae2;
+}
+
+.phone {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  width: 15rem;
+}
+
+.phone > img {
+  width: 15rem;
+  position: relative;
+}
+
+.left > h1 {
+  font-size: 5rem;
+  color: black;
+  margin-top: 10rem;
+}
+
+.left > p {
+  color: #6c757d;
+  line-height: 1.5rem;
+  font-size: larger;
+  margin-top: 1rem;
+}
+
+.aside {
+  margin-top: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  color: #fff;
+  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+}
+
+.container {
+  font-size: xx-large;
+  margin: auto;
+  padding-inline: 20rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.features {
+  display: flex;
+}
+.cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap:20px;
+  padding-inline:12rem ;
+  margin-top: 5rem;
+}
+
+i.bi-phone ::before {
+  display: initial;
+}
+
+i.bi-phone,
+.bi-camera,
+.bi-gift,
+.bi-patch-check {
+  background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+  font-size: 4rem;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card-image-container {
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card-info {
+  color: #6c757d;
+  font-weight: lighter;
+  text-align: center;
+}
+
+
+
+.basic-feature {
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.content {
+  width: 50%;
+  margin-left: 2.5rem;
+  padding-inline: 5rem;
+  margin-top: 5rem;
+}
+.content-header > h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.content-text > p {
+  color: #6c757d;
+  line-height: 1.6rem;
+  font-size: 1.2rem;
+}
+
+.content-image {
+  width: 50%;
+}
+
+.content-image > img {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+}
+
+/* .download ::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+ 
+} */
+
+
+.download {
+  background-image: url("https://source.unsplash.com/5g41N3uRPf8/1500x800");
+  background-position: center;
+  background-size: cover;
+  padding: 10rem;
+  min-height: 100vh;
+  position: relative;
+ 
+}
+
+
+
+
+.download-btn > button {
+  padding: 1rem 2rem;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 50px;
+  background: transparent;
+  font-size: 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+ 
+}
+
+.download-btn > button:hover {
+  background: #fff;
+  color: black;
+  transition: ease-in-out 0.2s;
+  
+}
+
+.download-heading > h1 {
+  font-size: 5rem;
+  color: #fff;
+  
+}
+
+.getapp {
+  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.getapp-heading > h1 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.app-badges {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: black;
+  color: #6c757d;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+footer > h4 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+ul.footer-link {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+ul.footer-link > li {
+  list-style-type: none;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+
+  cursor: pointer;
+}
+
+ul.footer-link > li:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+@media only screen and (max-width: 999px) {
+  .menu li a {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 2rem;
+  }
+
+  li.mobile-nav {
+    display: inline-block;
+    margin-right: 0px;
+  }
+
+  .left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .applogo {
+    flex-direction: column;
+  }
+
+  .applogo > img {
+    width: 9rem;
+    height: 9rem;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    padding-inline: 1rem;
+    font-size: x-large;
+  }
+
+  .basic-feature {
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  .content {
+    width: 100%;
+  }
+
+  .content-image {
+    width: 100%;
+  }
+  .content-image > img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 3rem;
+  }
+}
